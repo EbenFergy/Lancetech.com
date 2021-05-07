@@ -1,0 +1,241 @@
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  /* background-image: url(file:///C:/Users/Ferguson%20Osas/Documents/WEB%20DEVELOPMENT/Bootstrap%205/img/dotted-worldmap.png); */
+  background-attachment: fixed;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.border {
+  border: 2px solid red;
+}
+
+/*------------------------------------ Top info nav ------------------------------------*/
+.info-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #13171f;
+  width: 100%;
+  height: 5%;
+  color: white;
+  /* text-align: center;    */
+  margin: 0px;
+  font-size: 13px;
+}
+
+.info-nav-container span a {
+  text-decoration: none;
+  color: #1c8fc5;
+}
+
+.info-nav-container span a:hover {
+  text-decoration: underline;
+}
+
+/*------------------------------------ NAVBAR ------------------------------------*/
+.navbar-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
+  height: 9%;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin-left: 5vw;
+  align-items: center;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0px;
+}
+
+.features li {
+  margin-right: 20px;
+}
+
+.features li a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.features li a:hover {
+  color: #1c8fc5;
+}
+
+.join-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-btn button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  background-color: #1c8fc5;
+  margin-left: 10vw;
+}
+
+.join-btn button:hover {
+  color: #1c8fc5;
+  border: 1px solid #1c8fc5;
+  background-color: white;
+}
+
+/*------------------------------------ HEADER ------------------------------------*/
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 70%;
+  /* padding: 50px; */
+  background-color: rgb(245, 245, 245);
+}
+
+.left {
+  display: flex;
+  grid-column: span 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-text {
+  padding-left: 5vw;
+}
+
+.header-style {
+  font-size: 2.5rem;
+  font-family: "Bebas", sans-serif;
+  margin-bottom: 0px;
+}
+
+#header-write-up {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.right {
+  grid-column: span 1;
+  display: flex;
+  justify-content: center;
+}
+
+.right > img {
+  object-fit: contain;
+  width: 80%;
+}
+
+.View-Gallery {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  background-color: #1c8fc5;
+}
+
+/*------------------------------------ POPULAR ------------------------------------*/
+.popular {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+  margin: 4vh 0px;
+}
+
+.select {
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 8px;
+  height: 40px;
+  padding: 5px;
+  font-size: 0.9rem;
+  margin-left: 5vw;
+}
+
+.popular-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+.popular-list li a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 15px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 8px;
+  height: 40px;
+  padding: 5px;
+  font-size: 0.9rem;
+  margin-left: 5vw;
+}
+
+/*------------------------------------ write-up ------------------------------------*/
+.write-up {
+  text-align: center;
+  margin: 2vh 0px;
+}
+
+/*------------------------------------ CARDS ------------------------------------*/
+
+/* Job Pictures */
+.picture-gallery-container {
+  background-color: #1f2c46;
+  padding: 40px 5vw;
+}
+
+.picture-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-auto-rows: 250px;
+  grid-gap: 35px;
+}
+
+.picture-gallery img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.gallery-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #13171f;
+  transition: all 1s;
+}
+
+.gallery-pictures:hover {
+  transform: scale(0.9);
+}
