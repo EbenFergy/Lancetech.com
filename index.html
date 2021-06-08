@@ -4,103 +4,190 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LanceTech Services Limited</title>
-    <link rel="icon" href="img/logo-icon.jpg" alt="">
+    <title>Lancetech</title>
+    <link rel="icon" href="img/logo-icon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-------------------------- Top info nav --------------------------->
-    <p class="info-nav-container">
-        <span>
-          Want a <a href="#"> discount? </a> We are running a promo for all our <a href="#">graphic design</a>  clients.
-        </span> 
-    </p>
+     <!-------------------------- Top info nav --------------------------->
+        <p class="info-nav-container">
+            <span>
+            Want a <a href="#"> discount? </a> We are running a promo for all our <a href="#">graphic design</a>  clients.
+            </span> 
+        </p>
 
-    <!-------------------------- NAVBAR --------------------------->
-    <div class="navbar-container">
-        <div class="logo"><img src="img/Lancetech.png" alt=""></div>
-        <ul class="features">
-            <li><a href="">Home</a></li>
-            <li><a href="">Hire</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <div class="join-btn">
-            <button>Join our team</button>
+    
+
+    <!-------------------------- NAVBAR AND HEADER --------------------------->
+    <div class="headerAndNavbar">
+        <!-------------------------- NAVBAR --------------------------->
+    <nav class="navbar">
+        <a class="nav-logo" href="index.html"><img src="img/Lancetech.png" alt="">  </a>
+        <div class ="nav-links">
+            <ul class="ul-link ">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="" id="contact-nav">Contact</a></li>
+                <li><a href="">Hire</a></li>
+            </ul>
+        </div>
+        <div class="join-btn-container">
+            <button class="join-btn">Join our team</button>
+        </div>
+    </nav>
+    <!-------------------------- HEADER --------------------------->
+    <header class="header">
+        <div class="left">
+            <div class="header-text">
+                <h1>
+                    Mobile/Web App, <br>
+                    Graphic Design, Illustrations...
+                </h1>
+                <h3>
+                    Find the perfect service to scale up your ideas with a viable online presence.
+                </h3>
+                <a href="gallery.html"><button class="view-gallery">View Gallery</button></a>
+                <button class="signup">Sign up</button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/amico.svg" alt="" id="header-img">
+        </div>
+    </header>
+    </div>
+    
+    
+    <!-------------------------- POPULAR --------------------------->
+    <div class="popular-container">
+        <div class="popular-drpdwn">
+            <select name="Popular" id="popular">
+                <option value="Popular" selected>Popular</option>
+                <option value="All"> All</option>
+                <option value="All"> Animation</option>
+                <option value="All"> Branding</option>
+                <option value="All"> Illustration</option>
+                <option value="All"> Mobile</option>
+                <option value="All"> Web Design</option>
+                <option value="All"> Print</option>
+                <option value="All"> Product Design</option>
+            </select>
+        </div>
+        <div class="popular-links-container">
+            <ul class="popular-links">
+                <li><a href="#">All</a></li>
+                <li><a href="#">Animation</a></li>
+                <li><a href="#">Branding</a></li>
+                <li><a href="#">Illustration</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Print</a></li>
+                <li><a href="#">Product Design</a></li>
+            </ul>
+        </div>
+        <div class="filter-container">
+            <button class="filter-btn">
+                Filters
+            </button>
         </div>
     </div>
 
-    <!-------------------------- HEADER --------------------------->
-
-    <div class="header">
-        <div class="left">
-            <div class="left-text">
-                
-                <h1 class="header-style">Mobile/Web App, <br> Graphic Design, Illustrations...</h1>
-                <h5 id="header-write-up">Find the perfect service to scale up your ideas with a viable online presence. </h5>
-                <button class="View-Gallery"> View Gallery </button>
-            </div>  
-            
+     <!-------------------------- OUR SERVICES --------------------------->
+    <div class="our-services-container">
+        <h2>OUR <span>SERVICES</span> </h2>
+        <div class="the-services">
+            <div class="services first-service">
+                <img src="img/Web development.svg" alt="">
+                Web/Mobile Development
+            </div>
+            <div class="services second-service">
+                <img src="img/ux.svg" alt="">
+                UI/UX Design
+            </div>
+            <div class="services third-service">
+                <img src="img/Graphic Design.svg" alt="">
+                Graphics/Illustrations
+            </div>
+            <div class="services fourth-service">
+                <img src="img/product design.svg" alt="">
+                Product Design
+            </div>
         </div>
-        <div class="right">
-            <img src="img/undraw.png" class="" alt="">
+        
+    </div>
+    
+    <!-------------------------- Our process --------------------------->    
+    <div class="our-process-container">
+        <div class="process-text">
+            <h3><a href="">Learn more</a> about Lancetech</h3>
+            <h2>Discover our process and how we work <br> to deliver great results</h2>
+        </div>
+        
+        <div class="our-process">
+            <div class="process"> 
+                <img src="img/process-1.svg" alt="">
+                <h4>Strategy development</h4> 
+                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Enim magni quo ab non provident? Error qui, iste consequuntur 
+                    quasi assumenda ea? Accusamus, sint eius! Omnis dolorum 
+                    ipsum iste suscipit ratione!
+                </h6>
+            </div>
+            <div class="process">
+                <img src="img/process-2.svg" alt="">
+                <h4> Product Development process</h4>
+                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Enim magni quo ab non provident? Error qui, iste consequuntur 
+                    quasi assumenda ea? Accusamus, sint eius! Omnis dolorum 
+                    ipsum iste suscipit ratione!
+                </h6>
+            </div>
+            <div class="process">
+                <img src="img/process-3.svg" alt="">
+                <h4>Testing, prototyping and support</h4>
+                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Enim magni quo ab non provident? Error qui, iste consequuntur 
+                    quasi assumenda ea? Accusamus, sint eius! Omnis dolorum 
+                    ipsum iste suscipit ratione!
+                </h6> 
+            </div>
+        </div>
+    </div>        
+
+    <!-------------------------- CONNECT --------------------------->    
+    <div class="connect-container">
+        <div class="connect">
+            <img src="img/connect-img.svg" alt="">
+        </div>
+        <div class="connect-right">
+            <img src="img/Global presence.svg" alt="">
         </div>
         
     </div>
 
-    <!-------------------------- POPULAR --------------------------->
-    <div class="popular">
-        <div class="">
-            <select name="Popular" id="" class="select">
-                <option value="" selected>Popular</option>
-                <option value="">Mobile</option>
-                <option value="">Web</option>
-                <option value="">Illustrations</option>
-                <option value="">Animation</option>
-            </select>
-        </div>
 
-        <div class="popular-list-container">
-            <ul class="popular-list">
-                <li class=""><a href="">All</a></li>
-                <li><a href="">Animation</a></li>
-                <li><a href="">Branding</a></li>
-                <li><a href="">Illustration</a></li>
-                <li><a href="">Mobile</a></li>
-                <li><a href="">Web Design</a></li>
-                <li><a href="">Print</a></li>
-                <li><a href="">Product Design</a></li>
-              </ul>
-        </div>
+    <!-------------------------- REQUEST FORM --------------------------->    
+    <div class="request-form-container">
+        <p>DROP A REQUEST</p> 
+        <form action="" class="request-form">
+            <input type="text" placeholder="Full name" required>
+            <input type="email" placeholder="email" required>
+            <input type="tel" placeholder="telephone" required>
+            <input id="enter-request" type="text" placeholder="Enter request"  required>
+            <input type="submit" id="submit">
 
-        <div class="filter-container">
-            <button class="filters">Filters</button>
-        </div>
+        </form>
     </div>
 
-    <!-------------------------- write-up --------------------------->    
-    <div class="write-up">
-        <p>Get your jobs done by the <span id="best-hands">best hands</span>  in the industry</p> 
+    <!-------------------------- OUR TEAM --------------------------->    
+    <div class="our-team-container">
+        
     </div>
-    <!-------------------------- CARDS --------------------------->    
-    <div class="picture-gallery-container">
-        <div class="container picture-gallery">
-            <div class="gallery-pictures 1"><img src="img/DRONES UIUX.jpg" alt=""> </div>
-            <div class="gallery-pictures 2"><img src="img/Frame 1.png" alt=""></div>
-            <div class="gallery-pictures 3"><img src="img/Ha chips brand 2.jpg" alt=""></div>
-            <div class="gallery-pictures 4"><img src="img/PREMIUM PRE MATCH KITS.jpg" alt=""></div>
-            <div class="gallery-pictures 5"><img src="img/Spirit and in Truth 11.jpg" alt=""></div>
-            <div class="gallery-pictures 6"><img src="img/Your best experience for Bitcoin Trading is just 1 click away 2.jpg" alt=""></div>
-            <div class="gallery-pictures 7"><img src="img/Work out in the right gear.jpg" alt=""></div>
-            <div class="gallery-pictures 8"><img src="img/Watches 2.jpg" alt=""></div>
-            <div class="gallery-pictures 9"><img src="img/Walk in Store , Launching soon3.jpg " alt=""></div>
-            <div class="gallery-pictures 10"><img src="img/Walk in Store , Launching soon3.jpg " alt=""></div>
-        </div>
-    </div>
-    <div class="sqaure"><img src="img/world map.svg" alt=""></div>
+
+    <!-------------------------- FOOTER --------------------------->
+    <footer>
+
+    </footer>
 </body>
 </html>
