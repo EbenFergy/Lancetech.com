@@ -1,10 +1,10 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Lancetech</title>
+        <title>Lancetech Services Limited</title>
         <link rel="icon" href="img/logo-icon.jpg">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,28 +17,41 @@
                 Want a <a href="#"> discount? </a> We are running a promo for all our <a href="#">graphic design</a>  clients.
                 </span> 
             </p>
-
-        
-
-        
+            
             <!-------------------------- NAVBAR --------------------------->
         <nav class="navbar">
-            <a class="nav-logo" href="index.html"><img src="img/Lancetech.png" alt="">  </a>
-            <div class ="nav-links">
-                <ul class="ul-link ">
+                
+            <a class="nav-logo" href="index.html"><img src="img/Lancetech.png" alt=""></a>
+            <ul class="ul-link">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="" id="contact-nav">Contact</a></li>
+                <li><a href="">Hire</a></li>
+            </ul>
+            <div class="nav-links">
+                <ul class="ul-link-small">
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
+                    <li><a href="gallery.html">View Gallery</a></li>
                     <li><a href="" id="contact-nav">Contact</a></li>
                     <li><a href="">Hire</a></li>
                 </ul>
             </div>
             <div class="join-btn-container">
-                <button class="join-btn">Join our team</button>
+                <button class="join-btn ">Join our team</button>
+            </div>
+            <div class="menu-icon">
+                <svg class="menu-btn" onclick = "sideMenu()" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF">
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+                <!-- <img src="img/menu-icon.svg" alt="" class="menu-btn" onclick="sideMenu()"> -->
+            </div>
+            <div class="blur">
             </div>
         </nav>
-        
-        
-        <!-------------------------- CARDS --------------------------->    
+
+            <!-------------------------- CARDS --------------------------->    
         <div class="picture-gallery-container">
             <div class="container picture-gallery">
                 <div class="gallery-pictures 1"><img src="img/DRONES UIUX.jpg" alt=""> </div>
@@ -53,5 +66,8 @@
                 <div class="gallery-pictures 10"><img src="img/Walk in Store , Launching soon3.jpg " alt=""></div>
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
+        
+        
